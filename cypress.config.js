@@ -20,7 +20,7 @@ module.exports = defineConfig({
   videosFolder: 'cypress/videos',
   "reporter": "junit",
   "reporterOptions": {
-    "mochaFile": "tests/test-output-[hash].xml",
+    "mochaFile": "tests/TEST-output-[hash].xml",
     "toConsole": true,
     "attachments": true
   },
