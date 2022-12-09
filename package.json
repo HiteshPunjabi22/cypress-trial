@@ -5,8 +5,7 @@
   "main": "index.js",
   "scripts": {
     "test": "npx cypress run --env allure=true",
-    "report": "npx allure generate allure-results --clean -o allure-report",
-    "cy:run:chrome: "cypress run --browser chrome"
+    "report": "npx allure generate allure-results --clean -o allure-report"
   },
   "author": "Veerkumar Patil",
   "license": "ISC",
