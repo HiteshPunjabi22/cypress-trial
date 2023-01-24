@@ -5,6 +5,7 @@
   "main": "index.js",
   "scripts": {
     "test": "npx cypress run --env allure=true",
+    "cy:run": "cypress run",
     "cy:addtocart": "cypress run --spec cypress-trial/cypress/e2e/addtocart.cy.js",
     "cy:login": "cypress run --spec cypress-trial/cypress/e2e/login.cy.js",
     "cy:log_custom": "cypress run --spec cypress-trial/cypress/e2e/login_custom_command.cy.js",
